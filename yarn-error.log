@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add @babel/plugin-transform-modules-commonj --dev
+
+PATH: 
+  /Users/wowua/.cargo/bin:/usr/local/Cellar/php/7.2.4_1/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/wowua/.cargo/bin:/usr/local/Cellar/php/7.2.4_1/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/wowua/.composer/vendor/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/wowua/.composer/vendor/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  13.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel%2fplugin-transform-modules-commonj: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:65894:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:129018:22)
+      at Request.emit (events.js:321:20)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:129990:10)
+      at Request.emit (events.js:321:20)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:129912:12)
+      at Object.onceWrapper (events.js:427:28)
+      at IncomingMessage.emit (events.js:333:22)
+      at endReadableNT (_stream_readable.js:1201:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "data-structures",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+      "@babel/core": "^7.5.5",
+      "@babel/preset-env": "^7.5.5",
+      "babel-jest": "^24.8.0",
+      "jest": "^24.8.0"
+    },
+    "scripts": {
+      "test": "jest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
