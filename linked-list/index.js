@@ -62,12 +62,3 @@ export class LinkedList {
     return null;
   }
 }
-
-const list = new LinkedList(1);
-
-list.append(2);
-list.append(3);
-
-list.deleteTail();
-
-console.log(list);
